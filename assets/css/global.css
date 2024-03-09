@@ -1,0 +1,10 @@
+.wrp-body-menu {
+    height: 100%;
+    width: 100%;
+    background-color: #949494;
+    animation: open ease 3s;
+    position: fixed;
+}
+.wrp-reg-form-1{
+    height: auto;
+}

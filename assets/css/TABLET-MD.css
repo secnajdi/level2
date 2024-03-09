@@ -1,0 +1,360 @@
+/*md*/
+@media screen and (min-width:768px) and (max-width:991.98px) {
+
+
+    .navbar-container {
+        height: 150px;
+        border-bottom-style: inset;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-right: 125px;
+        margin-top: 10px;
+    }
+
+    .parent-r {
+        text-align: right;
+
+    }
+
+    .parent-l {
+        text-align: left;
+
+
+    }
+
+    .r1 h1 {
+        font-family: "maneli";
+        font-size: 20px;
+        margin-top: 49px;
+        margin-right: 5px;
+
+
+    }
+
+    .reg-link {
+        text-align: right;
+        display: flex;
+        width: auto;
+        height: 40px;
+        position: absolute;
+        left: 125px;
+        font-family: "yekan";
+        margin-top: 40px;
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 15px;
+        animation: fadeInAnimation2 ease 1s;
+    }
+
+    .ic-reg {
+        width: 25px;
+        height: 25px;
+        margin-top: 0px;
+
+    }
+
+    .reg-link p {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+
+    .wrp-items-nav {
+        margin-right: 95px;
+        margin-top: 10px;
+    }
+
+    .wrp-items-nav a {
+        text-decoration: none;
+        font-size: 15px;
+        margin-right: 35px;
+        font-family: "yekan";
+        color: slategray;
+    }
+
+    .wrp-items-nav a:hover {
+        color: #007bff;
+    }
+
+
+    /* Body */
+    .r-reg{
+        display: grid;
+    }
+
+    .r-reg h1 {
+        font-family: "yekan";
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .wrp-reg-form-1 {
+        width: 550px;
+        height: 550px;
+
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+        padding: 60px;
+
+    }
+
+    .reg-form {
+        text-align: right;
+    }
+
+    .form-reg-in1 {
+        border-style: none;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+        width: 100%;
+        height: 50px;
+        margin-top: 50px;
+        font-family: "yekan";
+        padding: 25px;
+        
+    }
+
+    .form-reg-in2 {
+        border-style: none;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+            width: 100%;
+        height: 50px;
+        margin-top: 50px;
+        font-family: "yekan";
+        padding: 25px;
+
+    }
+    input[type=text]{
+        font-family: "yekan";
+
+    }
+    .reg-btn{
+        border-style:none ;
+        font-family: "yekan";
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 40px;
+        width: 120px;
+    }
+    .reg-btn:active{
+        border-style:none ;
+
+    }
+    .alert-error1{
+        text-align: right;
+        font-family: "yekan";
+        margin-top: 15px;
+    }
+    .r-reg p,a{
+        font-family: "yekan";
+        margin-top: 25px;
+
+    }
+
+
+    .r2 {
+        justify-content: center;
+        margin-top: 50px;
+        display: grid;
+        text-align: center;
+    }
+
+    .wrp-home-ic {}
+
+
+    .ic-home {
+        width: 400px;
+        height: 400px;
+        animation: fadeInAnimation ease 0.8s;
+
+
+    }
+
+    .wrp-home-txt h1 {
+        font-family: "yekan";
+        font-size: 23px;
+    }
+
+    .wrp-home-txt a {
+        display: flex;
+        width: 245px;
+        height: 50px;
+        background-color: #007bff;
+        font-family: "yekan";
+        text-decoration: none;
+        text-align: center;
+        font-size: 15px;
+        padding: 15px;
+        margin: auto;
+        margin-top: 45px;
+        animation: fadeInbtn 1s;
+        /* animation-delay: 0.7s; */
+    }
+
+    .wrp-home-txt {
+        text-align: center;
+        margin-top: 110px;
+    }
+
+    .click-ic {
+        width: 20px;
+        height: 20px;
+        animation: changestate ease-in-out 1s infinite;
+    }
+
+
+
+    /* end body */
+
+
+    /* Menu */
+
+    .wrp-body-menu {
+        background-color: rgba(255, 0, 0, 0.733);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: none;
+    }
+
+    .menu-ic-open {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrp-item-menu {
+        width: 400px;
+        height: 400px;
+        background-color: #007bff;
+        display: none;
+    }
+
+    .menu-ic-close {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: none;
+    }
+
+
+    /* End Menu  */
+
+
+
+
+
+
+
+}
+
+
+
+
+@font-face {
+    font-family: yekan;
+    src: url("../font/IRANYekanWebRegular.woff");
+}
+
+@font-face {
+    font-family: maneli;
+    src: url("../font/Maneli.ttf");
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@keyframes fadeInAnimation2 {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 40px;
+
+    }
+}
+
+@keyframes changestate {
+    0% {
+
+
+        margin-right: 5px;
+    }
+
+    /* 25%{
+        margin-right: 5px;
+        
+
+
+    } */
+    50% {
+        margin-right: 0px;
+
+
+    }
+
+    /* 75%{
+        margin-bottom: 5px;
+        
+
+    } */
+    100% {
+        margin-right: 5px;
+
+    }
+}
+
+@keyframes fadeInbtn {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    /* 25%{
+        opacity: 0.25;
+        
+
+
+    }
+    50%{
+        opacity: 0.5;
+        
+
+    }
+    75%{
+        opacity: 0.75;
+        
+
+    } */
+    100% {
+        opacity: 1;
+        margin-top: 45px;
+
+    }
+}

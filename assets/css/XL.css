@@ -1,0 +1,372 @@
+/*xl*/
+@media screen and (min-width:1200px) {
+
+    .navbar-container {
+        height: 200px;
+        border-bottom-style: inset;
+    }
+
+    .logo {
+        width: 125px;
+        height: 125px;
+        margin-right: 175px;
+        margin-top: 15px;
+    }
+
+    .parent-r {
+        text-align: right;
+
+    }
+
+    .parent-l {
+        text-align: left;
+
+
+    }
+
+    .r1 h1 {
+        font-family: "maneli";
+        font-size: 30px;
+        margin-top: 72px;
+        margin-right: 20px;
+
+
+    }
+
+    .reg-link {
+        text-align: right;
+        display: flex;
+        width: auto;
+        height: 50px;
+        position: absolute;
+        left: 175px;
+        font-family: "yekan";
+        margin-top: 65px;
+        font-size: 20px;
+        padding-right: 15px;
+        padding-left: 20px;
+        animation: fadeInAnimation2 ease 1s;
+    }
+
+    .ic-reg {
+        width: 35px;
+        height: 35px;
+        margin-top: 0px;
+
+    }
+
+    .reg-link p {
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .wrp-items-nav {
+        margin-right: 155px;
+        margin-top: 10px;
+    }
+
+    .wrp-items-nav a {
+        text-decoration: none;
+        margin-right: 40px;
+        font-family: "yekan";
+        color: slategray;
+    }
+
+    .wrp-items-nav a:hover {
+        color: #007bff;
+    }
+
+    .r2 {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+
+    /* body */
+    .r-reg{
+        display: grid;
+    }
+
+    .r-reg h1 {
+        font-family: "yekan";
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .wrp-reg-form-1 {
+        width: 550px;
+        height: 550px;
+
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+        padding: 60px;
+
+    }
+
+    .reg-form {
+        text-align: right;
+    }
+
+    .form-reg-in1 {
+        border-style: none;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+        width: 100%;
+        height: 50px;
+        margin-top: 50px;
+        font-family: "yekan";
+        padding: 25px;
+        
+    }
+
+    .form-reg-in2 {
+        border-style: none;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+            width: 100%;
+        height: 50px;
+        margin-top: 50px;
+        font-family: "yekan";
+        padding: 25px;
+
+    }
+    input[type=text]{
+        font-family: "yekan";
+
+    }
+    .reg-btn{
+        border-style:none ;
+        font-family: "yekan";
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 40px;
+        width: 120px;
+    }
+    .reg-btn:active{
+        border-style:none ;
+
+    }
+    .alert-error1{
+        text-align: right;
+        font-family: "yekan";
+        margin-top: 15px;
+    }
+    .r-reg p,a{
+        font-family: "yekan";
+        margin-top: 25px;
+
+    }
+
+
+
+
+
+    .ic-home{
+        width: 550px;
+        height: 550px;
+        animation: fadeInAnimation ease 0.8s;
+        
+        
+    }
+    .wrp-home-txt h1{
+        font-family: "yekan";
+        font-size: 32px;
+    }
+    .wrp-home-txt a{
+        display: flex;
+        width: 335px;
+        height: 75px;
+        background-color: #007bff;
+        font-family: "yekan";
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 45px;
+        animation: fadeInbtn ease-in-out 1s;
+        /* animation-delay: 0.7s; */
+    }
+    .wrp-home-txt{
+        text-align: center;
+        margin-top: 200px;
+    }
+    .click-ic{
+        width: 40px;
+        height: 40px;
+        animation: changestate ease-in-out 1s infinite;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mobile {
+        display: none;
+    }
+
+    /* end body */
+
+
+
+
+
+
+
+
+
+
+    /* Menu */
+
+    .wrp-body-menu {
+        background-color: rgba(255, 0, 0, 0.733);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: none;
+    }
+
+    .menu-ic-open {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .wrp-item-menu {
+        width: 400px;
+        height: 400px;
+        background-color: #007bff;
+        display: none;
+
+    }
+
+
+
+    /* Menu End */
+
+
+
+
+
+
+
+}
+
+
+
+
+@font-face {
+    font-family: yekan;
+    src: url("../font/IRANYekanWebRegular.woff");
+}
+
+@font-face {
+    font-family: maneli;
+    src: url("../font/Maneli.ttf");
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@keyframes fadeInAnimation2 {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 65px;
+
+    }
+}
+
+@keyframes changestate {
+    0% {
+
+
+        margin-right: 5px;
+    }
+
+    /* 25%{
+        margin-right: 5px;
+        
+
+
+    } */
+    50% {
+        margin-right: 0px;
+
+
+    }
+
+    /* 75%{
+        margin-bottom: 5px;
+        
+
+    } */
+    100% {
+        margin-right: 5px;
+
+    }
+}
+
+@keyframes fadeInbtn {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    /* 25%{
+        opacity: 0.25;
+        
+
+
+    }
+    50%{
+        opacity: 0.5;
+        
+
+    }
+    75%{
+        opacity: 0.75;
+        
+
+    } */
+    100% {
+        opacity: 1;
+        margin-top: 45px;
+
+    }
+}

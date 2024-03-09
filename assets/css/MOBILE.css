@@ -1,0 +1,455 @@
+/*mobile*/
+@media screen and (max-width:767px) {
+
+
+    .navbar-container {
+        height: 65px;
+        border-bottom-style: inset;
+    }
+
+    .logo {
+        width: 35px;
+        height: 35px;
+        /* margin-right: 125px; */
+        margin-top: 13px;
+    }
+
+    .parent-r {
+        /* text-align: right; */
+
+    }
+
+    .parent-l {
+        /* text-align: left; */
+
+
+    }
+
+    .r1 h1 {
+        font-family: "maneli";
+        font-size: 14px;
+        margin-top: 27px;
+        margin-right: 5px;
+
+
+    }
+
+    .r1 {
+        justify-content: center;
+    }
+
+    .reg-link {
+        text-align: right;
+        display: flex;
+        width: auto;
+        height: 30px;
+        position: absolute;
+        margin-right: 50px;
+        font-family: "yekan";
+        margin-top: 17px;
+        left: 20px;
+        font-size: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+        animation: fadeInAnimation4 ease 1s;
+    }
+
+    .ic-reg {
+        width: 15px;
+        height: 15px;
+        margin-top: 0px;
+
+    }
+
+    .reg-link p {
+        font-size: 7px;
+        margin-top: 3px;
+    }
+
+    .wrp-items-nav {
+        margin-right: 95px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .wrp-items-nav a {
+        text-decoration: none;
+        font-size: 15px;
+        margin-right: 35px;
+        font-family: "yekan";
+        color: slategray;
+    }
+
+    .wrp-items-nav a:hover {
+        color: #007bff;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+
+    /* Body */
+    .r-reg{
+        display: grid;
+    }
+
+    .r-reg h1 {
+        font-family: "yekan";
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .wrp-reg-form-1 {
+        width:100%;
+        height: 550px;
+
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+        padding: 60px;
+
+    }
+
+    .reg-form {
+        text-align: right;
+    }
+
+    .form-reg-in1 {
+        border-style: none;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+        width: 300px;
+        height: 20px;
+        margin-top: 25px;
+        font-family: "yekan";
+        padding: 25px;
+        font-size: 13px;
+        
+    }
+
+    .form-reg-in2 {
+        border-style: none;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 9px #d4d4d4,
+            -5px -5px 9px #ffffff;
+            width: 300px;
+        height: 20px;
+        margin-top: 25px;
+        font-family: "yekan";
+        padding: 25px;
+        font-size: 13px;
+
+    }
+    input[type=text]{
+        font-family: "yekan";
+
+    }
+    .reg-btn{
+        font-size: 13px;
+        border-style:none ;
+        font-family: "yekan";
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+        width: 120px;
+    }
+    .reg-btn:active{
+        border-style:none ;
+
+    }
+    .alert-error1{
+        text-align: right;
+        font-family: "yekan";
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    .r-reg p,a{
+        font-family: "yekan";
+        margin-top: 15px;
+        font-size: 13px;
+
+    }
+
+
+    .r2 {
+        justify-content: center;
+        margin-top: 50px;
+        display: grid;
+        text-align: center;
+    }
+
+    .wrp-home-ic {}
+
+
+    .ic-home {
+        width: 300px;
+        height: 300px;
+        animation: fadeInAnimation3 ease 0.8s;
+
+
+    }
+
+    .wrp-home-txt h1 {
+        font-family: "yekan";
+        font-size: 20px;
+    }
+
+    .wrp-home-txt a {
+        display: flex;
+        width: 210px;
+        height: 50px;
+        background-color: #007bff;
+        font-family: "yekan";
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        padding: 15px;
+        margin: auto;
+        margin-top: 45px;
+        animation: fadeInbtn ease 1s;
+        /* animation-delay: 0.7s; */
+    }
+
+    .wrp-home-txt {
+        text-align: center;
+        margin-top: 110px;
+    }
+
+    .click-ic {
+        width: 20px;
+        height: 20px;
+        animation: changestate ease-in-out 3s infinite;
+    }
+
+
+
+    /* end body */
+
+
+    /* Menu */
+
+    .wrp-body-menu {
+
+        height: 100%;
+        width: 100%;
+        background-color: #a0a0a0;
+        position: absolute;
+    }
+
+    .menu-ic-open {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .wrp-item-menu {
+        background-color: #ffffff;
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+
+
+        /* animation: open2 ease 0.7s ;  */
+    }
+
+    .wrp-items-nav2 {
+        display: grid;
+        text-align: right;
+        margin-top: 220px;
+
+
+
+    }
+
+    .wrp-items-nav2 a {
+        text-decoration: none;
+        font-size: 15px;
+        /* border-bottom-style:inset ; */
+        font-family: "yekan";
+        color: slategray;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "yekan";
+        padding: 20px;
+        color: slategray;
+        border-radius: 0px;
+        background: #ffffff;
+        box-shadow: 5px 5px 12px #cccccc;
+
+
+
+    }
+
+    .wrp-items-nav2 a:hover {
+        color: #007bff;
+    }
+
+
+    /* End Menu  */
+
+
+
+
+
+
+
+}
+
+
+
+
+@font-face {
+    font-family: yekan;
+    src: url("../font/IRANYekanWebRegular.woff");
+}
+
+@font-face {
+    font-family: maneli;
+    src: url("../font/Maneli.ttf");
+}
+
+@keyframes fadeInAnimation3 {
+    0% {
+        opacity: 0;
+        width: 0px;
+        height: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@keyframes fadeInAnimation4 {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 17px;
+
+    }
+}
+
+@keyframes changestate {
+    0% {
+
+
+        margin-right: 5px;
+    }
+
+    /* 25%{
+        margin-right: 5px;
+        
+
+
+    } */
+    50% {
+        margin-right: 0px;
+
+
+    }
+
+    /* 75%{
+        margin-bottom: 5px;
+        
+
+    } */
+    100% {
+        margin-right: 5px;
+
+    }
+}
+
+@keyframes fadeInbtn {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    /* 25%{
+        opacity: 0.25;
+        
+
+
+    }
+    50%{
+        opacity: 0.5;
+        
+
+    }
+    75%{
+        opacity: 0.75;
+        
+
+    } */
+    100% {
+        opacity: 1;
+        margin-top: 45px;
+
+    }
+}
+
+
+
+/* Menu anim */
+@keyframes open {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 0.5;
+
+
+    }
+
+}
+
+@keyframes open2 {
+    0% {
+
+        width: 0px;
+        height: 100%;
+
+    }
+
+    100% {
+
+        width: 250px;
+        height: 100%;
+
+
+
+    }
+
+}
+
+
+@keyframes open-item {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    100% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+
+}
